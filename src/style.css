@@ -1,0 +1,87 @@
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  /* position: relative; */
+}
+.whole {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.eachitem {
+  width: 350px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-right: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border: 0.5px solid black;
+  text-align: center;
+}
+
+.bookimage {
+  width: 350px;
+  height: 300px;
+  object-fit: contain;
+  background-color: grey;
+}
+.button,
+.button1 {
+  border-radius: 5px;
+}
+.buttondisp {
+  position: absolute;
+  display: flex;
+  width: inherit;
+  justify-content: space-around;
+  bottom: 10%;
+  font-size: 20px;
+  padding: 5px;
+}
+.star {
+  color: rgb(255, 136, 0);
+}
+.headtop {
+  position: relative;
+}
+.headofpage {
+  /* position: absolute; */
+  height: 200px;
+  color: white;
+  background-color: black;
+  margin-top: 20px;
+  margin-bottom: 2%;
+  display: flex;
+  font-size: 80px;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  align-items: center;
+}
+.bottomofpage {
+  height: 200px;
+  color: white;
+  background-color: black;
+  margin-bottom: 0px;
+  margin-top: 2%;
+  display: flex;
+  font-size: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.homehead {
+  position: relative;
+}
+.cartdisp {
+  position: absolute;
+  border: 1px solid black;
+  padding: 5px;
+  bottom: 0;
+
+  right: 0;
+  border-radius: 5px;
+}

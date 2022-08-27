@@ -1,0 +1,45 @@
+.cartimage {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+.cartcard {
+  display: flex;
+  place-content: center;
+  align-items: center;
+  border: 2px solid black;
+  padding: 5px;
+}
+.cartlist {
+  margin-top: 10%;
+  margin-bottom: 5%;
+  position: relative;
+}
+.but {
+  display: flex;
+}
+.quantity {
+  width: 30px;
+  text-align: center;
+}
+.total {
+  position: absolute;
+
+  right: 0;
+}
+.back {
+  position: absolute;
+  margin-top: 20px;
+  left: 20%;
+}
+.noitems {
+  display: grid;
+  place-content: center;
+  min-height: 50vh;
+  font-size: 40px;
+}
+.round {
+  border-radius: 50%;
+  margin: 2px;
+  align-content: center;
+}
