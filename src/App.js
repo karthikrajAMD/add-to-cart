@@ -56,10 +56,6 @@ const data = [
 function App() {
   const [cartitem, setCartitem] = useState([]);
   let handleaddtocart = (e) => {
-    // let pindex = fdata.findIndex((ind) => ind.id === e);
-    // let pvalue = fdata[pindex];
-    // setCartitem([...cartitem, pvalue]);
-    // console.log(cartitem);
     const ProductExist = cartitem.find((item) => item.id === e.id);
 
     if (ProductExist) {
